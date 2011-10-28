@@ -1,5 +1,6 @@
 Gem::Specification.new do |s|
   s.platform          = Gem::Platform::RUBY
+  s.authors           = ["IdeaMarshal", "Patrick Putman"]
   s.name              = 'refinerycms-portfolios'
   s.version           = '1.0'
   s.description       = 'Ruby on Rails Portfolios engine for Refinery CMS'
