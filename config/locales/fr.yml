@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    portfolios:
+      title: Portfolios
+  admin:
+    portfolios:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Portfolio
+        reorder: Réordonner les Portfolios
+        reorder_done: Fin de réordonnancement des Portfolios
+      records:
+        title: Portfolios
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Portfolio. Cliquer sur "Créer un(e) nouve(au/l/lle) Portfolio" pour créer votre premi(er/ère) portfolio.'
+      portfolio:
+        view_live_html: Voir ce(t/tte) portfolio <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) portfolio
+        delete: Supprimer définitivement ce(t/tte) portfolio
+  portfolios:
+    show:
+      other: Autres Portfolios

@@ -1,0 +1,11 @@
+<% content_for :body_content_left do %>
+  <ul id="portfolios">
+    <% @portfolios.each do |portfolio| %>
+      <li>
+        <%= link_to portfolio.title, portfolio_path(portfolio) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>
